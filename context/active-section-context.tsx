@@ -1,9 +1,8 @@
 "use client";
 
 import { links } from "@/lib/data";
+import { SectionName } from "@/lib/types";
 import React, { createContext, useContext, useState } from "react";
-
-type SectionName = (typeof links)[number]["name"];
 
 type ActiveSectionContextType = {
   activeSection: SectionName;
@@ -26,7 +25,14 @@ export const ActiveSectionContextProvider = ({
   const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
   return (
-    <ActiveSectionContext.Provider value={{ activeSection, setActiveSection, timeOfLastClick, setTimeOfLastClick }}>
+    <ActiveSectionContext.Provider
+      value={{
+        activeSection,
+        setActiveSection,
+        timeOfLastClick,
+        setTimeOfLastClick,
+      }}
+    >
       {children}
     </ActiveSectionContext.Provider>
   );
