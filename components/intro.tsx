@@ -83,20 +83,20 @@ const Intro = () => {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
-          href=""
+          href="#"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-          href=""
+          href="https://www.linkedin.com/in/luan-le-45ab2021b/"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-white p-4 text-gray-700 text-[1.25rem] flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-          href=""
+          href="https://github.com/luanle13"
         >
           <FaGithubSquare />
         </a>
