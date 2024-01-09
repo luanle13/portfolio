@@ -21,7 +21,7 @@ const fadeInAnimationsVariants = {
 };
 
 const Skills = () => {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Skills", 1);
 
   return (
     <section
@@ -33,7 +33,7 @@ const Skills = () => {
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
+            className="bg-white/10 border text-white/80 border-black/[0.1] rounded-xl px-5 py-3"
             key={index}
             variants={fadeInAnimationsVariants}
             initial="initial"

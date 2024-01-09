@@ -79,23 +79,23 @@ const Intro = () => {
           }}
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 group-hover:opacity-100 transition" />
         </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+          className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-white active:scale-105 active:text-white transition cursor-pointer borderBlack"
           href="#"
         >
           Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 group-hover:translate-y-1 group-hover:text-white  group-hover:opacity-100 transition" />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+          className="bg-white/10 p-4 text-white/60 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-white active:scale-105 transition cursor-pointer borderBlack"
           href="https://www.linkedin.com/in/luan-le-45ab2021b/"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 text-[1.25rem] flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+          className="bg-white/10 p-4 text-white/60 text-[1.25rem] flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-white active:scale-105 transition cursor-pointer borderBlack"
           href="https://github.com/luanle13"
         >
           <FaGithubSquare />
