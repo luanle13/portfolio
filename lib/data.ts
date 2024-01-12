@@ -1,10 +1,14 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaLaptopCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import askAny from "@/public/askany.png";
+import atlanticEnergy from "@/public/atlantic_energy.png";
+import auvenir from "@/public/auvenir.png";
+import frankSalt from "@/public/franksalt.png";
+import iyyara from "@/public/franksalt.png";
+import salestime from "@/public/salestime.png";
+import waodate from "@/public/waodate.png";
 
 export const links = [
   {
@@ -35,72 +39,102 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Vietnam National University",
+    location: "Ho Chi Minh City, Vietnam",
     description:
-      "I graduated after 6 months of studying, I immediately found a job as a front-end developer.",
+      "So, picture this—I landed myself a job gig back when I was just a sophomore, juggling work and classes like a pro. Fast forward, and I nailed it! I officially graduated after hustling through four years of studying. It's been a journey, but hey, I made it!",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Waodate",
+    location: "Software Developer",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I'm part of the team working together on the development of Waodate and AskAny, which are like the rockstars of our company's product lineup. It's all about that teamwork, making these two products stand out in the crowd.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer",
+    location: "TISOHA Solution",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I'm all in as a full-stack developer, diving deep into the world of web development. It's not just a gig; it's my playground where I wear the full-stack superhero cape. From coding the back end to crafting the front end, I'm in the thick of it, making the web do its magic.",
+    icon: React.createElement(FaLaptopCode),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectData = [
   {
-    title: "CorpComment",
-    description: "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg
-  },
-   {
-    title: "rmtDev",
+    title: "Salestime",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Enterprise Resource Planning (ERP) platform for businesses in Malta.",
+    tags: ["Kotlin", "ReactJS", "MySQL", "Google Cloud"],
+    imageUrl: salestime,
   },
   {
-    title: "Word Analytics",
+    title: "Auvenir",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Cloud-based audit solution for small to medium-sized audits in Canada.",
+    tags: [".NET Core", "MS SQL Server", "Azure"],
+    imageUrl: auvenir,
+  },
+  {
+    title: "Iyyara",
+    description:
+      "Exclusive platform catering to the needs of Halal food enthusiasts.",
+    tags: ["NodeJS", "TypeScript", "ReactJS", "MongoDB", "AWS"],
+    imageUrl: iyyara,
+  },
+  {
+    title: "Atlantic Energy",
+    description:
+      "Smart device monitoring system for both home and business environments.",
+    tags: [".NET Core", "MS SQL Server"],
+    imageUrl: atlanticEnergy,
+  },
+  {
+    title: "Frank Salt",
+    description:
+      "Digital platform for real estate trading and management in Malta.",
+    tags: [".NET Core", "MS SQL Server"],
+    imageUrl: frankSalt,
+  },
+  {
+    title: "Ask Any",
+    description:
+      "Platform connecting curious users with domain experts seamlessly.",
+    tags: ["NodeJS", "ReactJS", "Flutter", "MongoDB"],
+    imageUrl: askAny,
+  },
+  {
+    title: "Waodate",
+    description: "Dating platform connects singles throughout Vietnam.",
+    tags: ["NodeJS", "ReactJS", "Flutter", "MongoDB"],
+    imageUrl: waodate,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "C#",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Bash",
+  "Java",
+  "Kotlin",
+  "Go",
   "Python",
-  "Django",
-  "Framer Motion",
+  "ReactJS",
+  "Next.js",
+  "Flask",
+  "Spring Boot",
+  ".NET Core",
+  "Git",
+  "Linux",
+  "Docker",
+  "CI/CD",
+  "AWS",
+  "Azure",
+  "TensorFlow",
+  "PyTorch",
 ] as const;
