@@ -71,6 +71,7 @@ export const projectData = [
       "Enterprise Resource Planning (ERP) platform for businesses in Malta.",
     tags: ["Kotlin", "ReactJS", "MySQL", "Google Cloud"],
     imageUrl: salestime,
+    link: "http://www.sales-time.com/"
   },
   {
     title: "Auvenir",
@@ -78,6 +79,7 @@ export const projectData = [
       "Cloud-based audit solution for small to medium-sized audits in Canada.",
     tags: [".NET Core", "MS SQL Server", "Azure"],
     imageUrl: auvenir,
+    link: "https://auvenir.com/"
   },
   {
     title: "Iyyara",
@@ -85,6 +87,7 @@ export const projectData = [
       "Exclusive platform catering to the needs of Halal food enthusiasts.",
     tags: ["NodeJS", "TypeScript", "ReactJS", "MongoDB", "AWS"],
     imageUrl: iyyara,
+    link: "https://www.iyyara.io/"
   },
   {
     title: "Atlantic Energy",
@@ -92,6 +95,7 @@ export const projectData = [
       "Smart device monitoring system for both home and business environments.",
     tags: [".NET Core", "MS SQL Server"],
     imageUrl: atlanticEnergy,
+    link: "https://www.atlanticenergyco.com/"
   },
   {
     title: "Frank Salt",
@@ -99,6 +103,7 @@ export const projectData = [
       "Digital platform for real estate trading and management in Malta.",
     tags: [".NET Core", "MS SQL Server"],
     imageUrl: frankSalt,
+    link: "https://franksalt.com.mt/"
   },
   {
     title: "Ask Any",
@@ -106,12 +111,14 @@ export const projectData = [
       "Platform connecting curious users with domain experts seamlessly.",
     tags: ["NodeJS", "ReactJS", "Flutter", "MongoDB"],
     imageUrl: askAny,
+    link: "https://askany.com/"
   },
   {
     title: "Waodate",
     description: "Dating platform connects singles throughout Vietnam.",
     tags: ["NodeJS", "ReactJS", "Flutter", "MongoDB"],
     imageUrl: waodate,
+    link: "https://waodate.com/"
   },
 ] as const;
 
