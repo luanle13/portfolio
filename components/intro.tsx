@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import Typewriter from "react-ts-typewriter";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 1);
@@ -59,9 +60,20 @@ const Intro = () => {
       >
         <span className="font-bold">Ciao, I&apos;m Luan Le.</span> I&apos;m a{" "}
         <span className="font-bold">professional developer</span> with nearly{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
-        building{" "}
-        <span className="italic">sites, apps, AI systems and games</span>.
+        <span className="font-bold">3 years</span> of experience.
+        <p>
+          <Typewriter
+            text={[
+              "I enjoy building webs.",
+              "I enjoy building apps.",
+              "I enjoy building AI systems.",
+              "I enjoy building games.",
+            ]}
+            speed={50}
+            loop={true}
+            delay={1000}
+          />
+        </p>
       </motion.h1>
 
       <motion.div
