@@ -60,7 +60,7 @@ const Project = ({
           </section>
         </motion.div>
       </Link>
-      <br/>
+      <br />
     </>
   );
 };
