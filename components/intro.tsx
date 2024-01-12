@@ -95,7 +95,8 @@ const Intro = () => {
         </Link>
         <a
           className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-white active:scale-105 active:text-white transition cursor-pointer borderBlack"
-          href="#"
+          href="/luanle_resume.pdf"
+          download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 group-hover:text-white  group-hover:opacity-100 transition" />
