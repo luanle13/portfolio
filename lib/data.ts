@@ -60,7 +60,7 @@ export const experiencesData = [
     description:
       "I'm all in as a full-stack developer, diving deep into the world of web development. It's not just a gig; it's my playground where I wear the full-stack superhero cape. From coding the back end to crafting the front end, I'm in the thick of it, making the web do its magic.",
     icon: React.createElement(FaLaptopCode),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
